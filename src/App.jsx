@@ -9,6 +9,7 @@ import Qualification from './components/Qualification'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Scrollup from './components/Scrollup'
+import ScrollReveal from "scrollreveal";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,6 +41,24 @@ function App() {
       window.removeEventListener("scroll", scrollActive);
     };
   }, []);
+  useEffect(() => {
+    // Initialize ScrollReveal animations
+    const sr = ScrollReveal({
+      origin: "top", // Animation direction
+      distance: "60px", // Distance moved
+      duration: 2500,   // Animation duration
+      delay: 400,       // Delay before animation starts
+      reset: false,     // Whether animation resets on scroll
+    });
+
+    // Apply ScrollReveal to elements
+    sr.reveal(".home__data,.projects__container, .footer__container");
+    sr.reveal(".home__info div",{delay:600,origin:'bottom',interval:100})
+    sr.reveal(".skills__content:nth-child(1), .contact__content:nth-child(1)",{origin:"left"})
+    sr.reveal(".skills__content:nth-child(2), .contact__content:nth-child(2)",{origin:"right"})
+    sr.reveal('.qualification__content, .services__card',{interval:100})
+  }, []);
+  
 
   return (
     <>

@@ -152,6 +152,17 @@ body.dark-theme {
   bottom: 2rem;
 }
 
+@media screen and (min-width: 576px) {
+  .nav,
+  .nav__menu {
+    width: 380px;
+  }
+
+  .nav {
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 1023px) {
   .header {
     top: 0;
@@ -205,11 +216,11 @@ body.dark-theme {
   .change-theme:hover {
     color: var(--title-color);
   }
-  .bg-header{
-    box-shadow: 0 4px 20px hsla(207,24% ,35%,.1);
+  .bg-header {
+    box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
   }
 
-  .dark-theme .bg-header{
-    box-shadow: 0 6px 24px hsla(207,24%,8%,.6);
+  .dark-theme .bg-header {
+    box-shadow: 0 6px 24px hsla(207, 24%, 8%, 0.6);
   }
 }

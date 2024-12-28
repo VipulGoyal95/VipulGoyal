@@ -84,9 +84,24 @@
   background-color: var(--title-color);
 }
 
+@media screen and (min-width: 576px) {
+  .projects__container {
+    overflow: hidden;
+  }
+
+  .projects__container .custom-prev {
+    left: 1rem;
+  }
+
+  .projects__container .custom-next {
+    right: 1rem;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .projects__container {
-    width: 900px;
+    width: 920px;
+    overflow: unset;
   }
 
   .projects__container .custom-prev,
