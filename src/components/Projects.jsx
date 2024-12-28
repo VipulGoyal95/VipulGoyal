@@ -1,8 +1,8 @@
 import React from 'react';
-import project1 from "../assets/project1.jpg";
-import project2 from "../assets/project2.jpg";
-import project3 from "../assets/project3.jpg";
-import project4 from "../assets/project4.jpg";
+import project1 from "../assets/primebit.png";
+import project2 from "../assets/TCU.png";
+import project3 from "../assets/SAEwebsite.png";
+import project4 from "../assets/yt-clone.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -44,10 +44,10 @@ const Projects = () => {
                                 <div className="projects__content">
                                     <img src={project1} alt="projects image" className='projects__img' />
                                     <div>
-                                        <span className='projects__subtitle'>Modern Website</span>
-                                        <h1 className="projects__title">web</h1>
-                                        <a href="" className="projects__button">
-                                            View Details <i className="ri-arrow-right-line"></i>
+                                        <span className='projects__subtitle'>Auction Platform</span>
+                                        <h1 className="projects__title">Full Stack Project</h1>
+                                        <a href="https://primebid.vercel.app/" target='_blank' className="projects__button">
+                                            View Demo <i className="ri-arrow-right-line"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -57,10 +57,10 @@ const Projects = () => {
                                 <div className="projects__content">
                                     <img src={project2} alt="projects image" className='projects__img' />
                                     <div>
-                                        <span className='projects__subtitle'>Modern Website</span>
-                                        <h1 className="projects__title">web</h1>
-                                        <a href="" className="projects__button">
-                                            View Details <i className="ri-arrow-right-line"></i>
+                                        <span className='projects__subtitle'>Telematic Control Unit</span>
+                                        <h1 className="projects__title">Software and Hardware Project</h1>
+                                        <a href="https://github.com/VipulGoyal95/arduino_code" className="projects__button">
+                                            View Demo <i className="ri-arrow-right-line"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -69,10 +69,10 @@ const Projects = () => {
                                 <div className="projects__content">
                                     <img src={project3} alt="projects image" className='projects__img' />
                                     <div>
-                                        <span className='projects__subtitle'>Modern Website</span>
-                                        <h1 className="projects__title">web</h1>
-                                        <a href="" className="projects__button">
-                                            View Details <i className="ri-arrow-right-line"></i>
+                                        <span className='projects__subtitle'>SAE NIT Kurukshetra Website</span>
+                                        <h1 className="projects__title">Frontend Project</h1>
+                                        <a href="https://sae-website-e6d0f.web.app/" className="projects__button">
+                                            View Demo <i className="ri-arrow-right-line"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -81,10 +81,10 @@ const Projects = () => {
                                 <div className="projects__content">
                                     <img src={project4} alt="projects image" className='projects__img' />
                                     <div>
-                                        <span className='projects__subtitle'>Modern Website</span>
-                                        <h1 className="projects__title">Web</h1>
+                                        <span className='projects__subtitle'>Youtube Clone</span>
+                                        <h1 className="projects__title">Web Development</h1>
                                         <a href="" className="projects__button">
-                                            View Details <i className="ri-arrow-right-line"></i>
+                                            View Demo <i className="ri-arrow-right-line"></i>
                                         </a>
                                     </div>
                                 </div>
