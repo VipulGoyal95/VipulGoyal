@@ -12,7 +12,7 @@ import nextjs from "../assets/nextjs.svg";
 import "./Skills.css";
 const Skills = () => {
   return (
-    <section className='skills section' id='Skills'>
+    <section className='skills section' id='skills'>
         <h2 className="section__title">
             Skills
         </h2>

@@ -17,7 +17,7 @@ const Projects = () => {
         <section className='projects section' id='projects'>
             <h2 className="section__title">Projects</h2>
             <span className='section__subtitle'>Most recent work</span>
-            <div className="projects__container container section__border">
+            <div className="container section__border">
                 <Swiper
                     loop={true}
                     spaceBetween={24}
@@ -28,7 +28,7 @@ const Projects = () => {
                     }}
                     breakpoints={{
                         1200: {
-                          slidesPerView: 3,
+                          slidesPerView: 2,
                           spaceBetween: -56,
                         },
                       }}
@@ -36,7 +36,7 @@ const Projects = () => {
                     mousewheel={true}
                     keyboard={true}
                     modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-                    className="mySwiper"
+                    className="projects__container mySwiper"
                 >
                     <div className="projects__container">
                         <div>
@@ -91,10 +91,10 @@ const Projects = () => {
                             </SwiperSlide>
                         </div>
                     </div>
+                    {/* Custom navigation buttons */}
+                    <div className="custom-prev"><i className="ri-arrow-left-line"></i></div>
+                    <div className="custom-next"><i className="ri-arrow-right-line"></i></div>
                 </Swiper>
-                {/* Custom navigation buttons */}
-                <div className="custom-prev"><i className="ri-arrow-left-line"></i></div>
-                <div className="custom-next"><i className="ri-arrow-right-line"></i></div>
             </div>
         </section>
     );

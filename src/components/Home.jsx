@@ -41,8 +41,7 @@ const Home = () => {
                     <p className="home__info-description">
                         Hi, I'm Vipul, Web Developer.
                         I have a passion for coding and building modern applications.
-                        I have a background in computer science and a minor in artificial intelligence. 
-                        I am currently working remotely, focusing on frontend development and full-stack development.
+                        I have a background in computer science. 
                     </p>
                 </div>
                 <div>
@@ -73,6 +72,14 @@ const Home = () => {
                     </h3>
                     <p className="home__info-number">
                         05+
+                    </p>
+                </div>
+                <div>
+                    <h3 className="home__info-title">
+                        Download Resume
+                    </h3>
+                    <p className="home__info-number">
+                        Download
                     </p>
                 </div>
             </div>
