@@ -1,5 +1,4 @@
 import React from 'react'
-import Qualification from './Qualification';
 
 const Qualification = () => {
   return (
@@ -34,4 +33,4 @@ const Qualification = () => {
   )
 }
 
-export default Qualification
+export default Qualification;
